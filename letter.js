@@ -19,21 +19,6 @@ function Letter(wordChoice){
             }
         }//close for loop
     };// close .add method
-//     this.display = function(){
-//         var str = this.array
-//         str = str.toString();
-//         var res = str.replace(/,/g, " ");
-//         console.log(res);
-//     };//close .display method
-//     this.search = function(x, i){
-//         var n = this.answer.indexOf(x, i+1)
-//         if(n !== -1){
-//             this.array[n] = x;
-//             this.search(x,n);
-//         } else {
-//             return -1
-//         }
-//     };//close .search method
 }//close Letter constructor
 
 Letter.prototype.search = function(x, i){
